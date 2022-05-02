@@ -10,10 +10,14 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		
+		
+		
+		
 		double beforeTime = System.currentTimeMillis();
-	int[] arr = new int[1048576];
-		for (int i = 0; i < 1048576; i++) {
-			arr[i] = (int) (Math.random() * 1048576);
+		
+	int[] arr = new int[524288];
+		for (int i = 0; i <524288; i++) {
+			arr[i] = (int) (Math.random() * 524288);
 		}
 		for(int i = 0; i<arr.length; i++) {
 			for(int j = i + 1; j < arr.length; j++) { // +1을 하는 이유는 자기와 비교할 필요가 없기 때문
@@ -25,16 +29,12 @@ public class Main {
 			}
 		}
 		
-		for(int i = 0; i<arr.length; i++) {
-			System.out.print(arr[i] + " "); // 정렬 후 결과 출력
-		}
+		
 		
 		double aftertime = System.currentTimeMillis();
 		double secDiffTime = (aftertime - beforeTime)/1000;
-		System.out.println("시간차이(s) : "+secDiffTime);
-
-
-
+		 
+System.out.println("시간소요(초):"+secDiffTime);
 		
 	}
 }
