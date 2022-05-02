@@ -1,6 +1,7 @@
 
+# 각 정렬의 성능분석
 
-##선택정렬
+## 선택정렬
 ```
 import java.util.Arrays;
 import java.util.Scanner;
