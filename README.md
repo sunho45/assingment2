@@ -14,12 +14,13 @@ public class Main {
 		
 		
 		
-		double beforeTime = System.currentTimeMillis();
+		
 		
 	int[] arr = new int[524288];
 		for (int i = 0; i <524288; i++) {
 			arr[i] = (int) (Math.random() * 524288);
 		}
+		double beforeTime = System.currentTimeMillis();
 		for(int i = 0; i<arr.length; i++) {
 			for(int j = i + 1; j < arr.length; j++) { // +1을 하는 이유는 자기와 비교할 필요가 없기 때문
 				if(arr[i] > arr[j]) { // '>' 일 경우 오름차순 '<' 일 경우 내림차순
