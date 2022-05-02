@@ -139,10 +139,11 @@ public class Main {
 
 	}
 }
-![image](https://user-images.githubusercontent.com/100903674/166265399-d3f70808-ec49-4fce-841b-f5939c811397.png)
+
 
 
 ```
+![image](https://user-images.githubusercontent.com/100903674/166265585-4a3b7f9d-43f9-438e-8797-3192c99fe310.png)
 
 ## 힙 정렬
 
