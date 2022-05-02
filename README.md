@@ -96,3 +96,8 @@ public class Main {
 
 }
 ```
+
+![image](https://user-images.githubusercontent.com/100903674/166199135-4667e14d-b393-4c12-bffc-e6ebeccdc158.png)
+
+
+
