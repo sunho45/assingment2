@@ -1,5 +1,5 @@
 
-public class DEDEE {
+public class Quicksort {
     private static void quickSort(int[] arr,int start, int end) {
         int part=partition(arr,start,end);
         if(start<part-1) quickSort(arr,start,part-1);
@@ -39,7 +39,7 @@ public class DEDEE {
         quickSort(arr,0,arr.length-1);
         double aftertime = System.currentTimeMillis();
 		double secDiffTime = (aftertime - beforeTime)/1000;
-		System.out.println("¼öÇà½Ã°£(s) : "+secDiffTime);
+		System.out.println("Â¼Ã¶Ã‡Ã Â½ÃƒÂ°Â£(s) : "+secDiffTime);
  
         }
     }
