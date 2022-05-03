@@ -42,7 +42,8 @@ System.out.println("시간소요(초):"+secDiffTime);
 }
 ```
 
-![image](https://user-images.githubusercontent.com/100903674/166194462-bfb965df-6e07-4ba1-9efc-56531cd47716.png)
+![image](https://user-images.githubusercontent.com/100903674/166396326-4c502afd-8fb8-492a-8c54-b8e5160d2939.png)
+
 
 
 ## 퀵 정렬
